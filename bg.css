@@ -1,0 +1,73 @@
+body{
+    font-family:'Indie Flower', cursive;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	top: 20%;
+	 background: linear-gradient(to right, green,red)
+}
+
+h1{
+	font-family:  'Piedra', cursive;
+	text-align: center;
+	letter-spacing: 0.3em;
+	width: 100%;
+	text-transform: uppercase;
+	background-size: 
+}
+
+h2{
+    
+	font-family:  'Piedra', cursive;
+	text-align: center;
+	letter-spacing: 0.08em;
+	width: 100%;
+	text-transform: none;
+}
+
+.color1,.color2{
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.btnl,.btnr{
+	font-size: 15px;
+	padding: 10px 20px;
+	border : 3px solid black;
+	border-radius: 5px;
+	transition-duration: 0.4s;
+	font-family: sans-serif;
+	display: inline-block;
+}
+
+.btnr:hover {
+  background-color: grey;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  .btnl:hover {
+  background-color: grey;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .btnl:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btnr:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+footer{
+	text-align: center;
+	display: block;
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-weight: bold;
+}
